@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sudoku"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="549.886" Width="658.925">
+    <StackPanel Name ="stack1" HorizontalAlignment="Left" Margin="0,0,0,0" Width="983">
+        <Canvas Name="canvas1" Height="859" Margin="0,0,0,0">
+            <Label Content="Label" Canvas.Left="491" Canvas.Top="27" Width="90"/>
+            <Button Name ="Restart" Content="Restart" Canvas.Left="491" Canvas.Top="73" Width="75"/>
+            <Button Name ="NewGame" Content="New Game" Canvas.Left="491" Canvas.Top="108" Width="75" Height="19"/>
+        </Canvas>
+    </StackPanel>
 </Window>
